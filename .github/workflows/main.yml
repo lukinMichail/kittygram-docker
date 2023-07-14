@@ -60,4 +60,4 @@ jobs:
         with:
           context: ./backend/
           push: true
-          tags: 1ukin/kittygram_backend:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/kittygram_backend:latest
